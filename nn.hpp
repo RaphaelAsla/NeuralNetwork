@@ -1,9 +1,7 @@
 #pragma once
 
-#include <algorithm>
 #include <cmath>
 #include <fstream>
-#include <iomanip>
 #include <iostream>
 #include <random>
 #include <vector>
