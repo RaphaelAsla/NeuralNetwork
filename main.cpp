@@ -43,7 +43,7 @@ int main() {
     std::cout << "Testing AND gate with input (1, 0). Expected output: 0\n";
     std::cout << "Output: " << Net.Predict({1, 0})[1] << "\n\n";
 
-    std::cout << "Testing AND gate with input (0, 0). Expected output: 1\n";
+    std::cout << "Testing AND gate with input (0, 0). Expected output: 0\n";
     std::cout << "Output: " << Net.Predict({0, 0})[1] << "\n\n";
 
     // Net.Save("net.bin");
