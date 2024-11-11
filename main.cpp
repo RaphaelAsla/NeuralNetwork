@@ -8,11 +8,12 @@ int main() {
     // Network Net("net.bin");
 
     /* "XOR" and "AND" gate training */
+    /*             {XOR_out, AND_out}*/
     for (size_t i = 0; i < 100000; i++) {
         Net.Train({1, 1}, {0, 1});
         Net.Train({1, 0}, {1, 0});
         Net.Train({0, 1}, {1, 0});
-        Net.Train({0, 0}, {0, 1});
+        Net.Train({0, 0}, {0, 0});
     }
 
     std::cout << std::fixed << std::setprecision(10);
